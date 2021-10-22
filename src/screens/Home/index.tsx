@@ -41,10 +41,6 @@ export function Home() {
   }
 
   function handleFilterLoginData() {
-    // Filter results inside data, save with setSearchListData
-
-    console.log('DATA');
-    console.log(data)
 
     const result = searchText
       ? data.filter((login) => login.service_name.includes(searchText))
